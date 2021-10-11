@@ -1,0 +1,15 @@
+news_link:
+  {"url":"https://www.theguardian.com/international"}
+
+article_link:
+  {"tag":"a","tag_filter":{"data-link-name": "article"}}
+article_body:
+  {"tag":"div","tag_filter":{"class": "dcr-k7a0xc"}}
+article_date_candidates:
+  [{"tag":"div","tag_filter":{"class": "dcr-1gcyoz5"}},{"tag":"div","tag_filter":{"class": "dcr-4tgv3s"}}]
+author_candidates:
+    [ { "tag":"a","tag_filter": { "rel": "author" } },{ "tag":"address","tag_filter": { "aria-label": "Contributor info" } } ]
+
+
+database:
+  {"db_uri":"mongodb+srv://userGemography:1RL4gcmYOf3Snc7l@core.1kqjy.mongodb.net/ArticlesDB?retryWrites=true&w=majority"}
